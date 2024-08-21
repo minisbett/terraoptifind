@@ -91,6 +91,25 @@ const biomes7Rest = [["Hallow", "Caverns", "Desert", "Ocean", "Jungle", "Snow", 
 
 
 var npcdict = /** @type {const} */ ({
+    "Curio Trader": {
+        biome_loved: Biome.None,
+        biome_liked: Biome.Forest,
+        biome_disliked: Biome.Desert,
+        biome_hated: Biome.Caverns,
+        loves: [],
+        likes: [
+            "Princess",
+            "Zoologist",
+            "Goblin Tinkerer"
+        ],
+        dislikes: [
+            "Guide",
+            "Party Girl"
+        ],
+        hates: [],
+        weighting: 1.0,
+        mod: 'Terraria',
+    },
     Guide: {
         biome_loved: Biome.None,
         biome_liked: Biome.Forest,
