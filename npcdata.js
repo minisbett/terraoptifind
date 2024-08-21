@@ -91,7 +91,7 @@ const biomes7Rest = [["Hallow", "Caverns", "Desert", "Ocean", "Jungle", "Snow", 
 
 
 var npcdict = /** @type {const} */ ({
-    "Curio Trader": {
+    CurioTrader: {
         biome_loved: Biome.None,
         biome_liked: Biome.Forest,
         biome_disliked: Biome.Desert,
